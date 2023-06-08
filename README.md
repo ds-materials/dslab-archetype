@@ -1,6 +1,6 @@
 # Java 11 + JUnit 5 Quick Start Maven Archetype
 
-Maven archetype to create a project configured for Java 11 and using JUnit 5.
+Maven archetype to create a project configured for Java 11 and using JUnit 5. Contains Github action configuration for autograding
 
 ## Install archetype in local repository
 
