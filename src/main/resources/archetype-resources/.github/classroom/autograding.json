@@ -1,0 +1,10 @@
+{
+    "tests": [
+        {
+            "name": "SampleTest",
+            "run": "mvn -q clean test -Dtest=MainTest#add_two_numbers",
+            "timeout": 10,
+            "points": 1
+        }
+    ]
+}

@@ -25,7 +25,7 @@
         <version>${maven-surefire-plugin.version}</version>
         <configuration>
           <includes>
-            <include>**/*Should.java</include>
+            <include>**/*Test.java</include>
           </includes>
         </configuration>
       </plugin>
@@ -41,7 +41,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>${package}.App</mainClass>
+              <mainClass>${package}.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
